@@ -24,13 +24,13 @@ const crawler = new PuppeteerCrawler({
         await Dataset.pushData(data);
 
         await enqueueLinks({
-            globs: ['http?(s)://www.ategracapital.com/**'],
+            globs: ['http?(s)://digitalwill.co.jp/**'],
         });
     },
     maxRequestsPerCrawl: 10,
 });
 
-await crawler.addRequests(['https://www.ategracapital.com/']);
+await crawler.addRequests(['https://digitalwill.co.jp/']);
 
 await crawler.run();
 
