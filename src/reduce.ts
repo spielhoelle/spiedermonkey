@@ -5,18 +5,18 @@ const datasetName = 'rede';
 (async () => {
     const dataset = await Dataset.open(datasetName)
     // calling reduce function and using memo to calculate number of headers
-    let selectors = {
-        "em": "",
-        "fn": "",
-        "ln": "",
-        "ph": "",
-        "ct": "",
-        "st": "",
-        "zp": "",
-        "country": ""
-    }
     const pagesHeadingCount = await dataset.reduce((memo, value) => {
         if (value.body.indexOf("<form") !== -1) {
+            let selectors = {
+                "em": "",
+                "fn": "",
+                "ln": "",
+                "ph": "",
+                "ct": "",
+                "st": "",
+                "zp": "",
+                "country": ""
+            }
             const justFormElements = [...value.body.replace(/\n/g, '').matchAll(/<form.*?<\/form>/g)]
             justFormElements.forEach(match => {
                 let allInputs = []
@@ -26,15 +26,15 @@ const datasetName = 'rede';
                     const typeField = input.match(/type="(.*?)"/)
                     if (nameField && nameField.length > 1) {
                         // if (valueField && valueField.length > 1) {
-                        if (nameField[1].includes('email')) {
+                        if (typeField[1].includes('mail')) {
                             selectors['em'] = `${selectors['em']},${nameField[1]}`
                         }
-                        if (!allInputs.includes(nameField[1])) {
-                            allInputs.push({
-                                name: nameField[1],
-                                type: typeField && typeField.length > 1 ? typeField[1] : 'text'
-                            })
-                        }
+                        // if (!allInputs.includes(nameField[1])) {
+                        //     allInputs.push({
+                        //         name: nameField[1],
+                        //         type: typeField && typeField.length > 1 ? typeField[1] : 'text'
+                        //     })
+                        // }
                         // }
                     }
                 })
@@ -43,7 +43,7 @@ const datasetName = 'rede';
                     title: value.title,
                     form: match[0].replace(/.*(<form.*?>).*/, "$1"),
                     // inputs
-                    allInputs
+                    selectors
                 })
             })
         }
