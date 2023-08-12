@@ -9,6 +9,7 @@
     },
     "scripts": {
         "start": "node src/main.js",
+        "crawl": "ts-node-esm -T src/main.ts",
         "test": "echo \"Error: oops, the actor has no tests yet, sad!\" && exit 1"
     },
     "author": "It's not you it's me",

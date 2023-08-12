@@ -2,2277 +2,1018 @@
   {
     "title": "リノベーション住宅のカタログ・お客様の声｜中古住宅での暮らしを快適にREDESIGN(リデザイン)",
     "form": "<form method=\"post\" action=\"\" enctype=\"multipart/form-data\" class=\"h-adr\">",
-    "allInputs": [
-      {
-        "name": "fullname",
-        "type": "text"
-      },
-      {
-        "name": "rubi",
-        "type": "text"
-      },
-      {
-        "name": "mail",
-        "type": "email"
-      },
-      {
-        "name": "postal-code",
-        "type": "text"
-      },
-      {
-        "name": "address-locality",
-        "type": "text"
-      },
-      {
-        "name": "address-street",
-        "type": "text"
-      },
-      {
-        "name": "address-building",
-        "type": "text"
-      },
-      {
-        "name": "tel",
-        "type": "text"
-      },
-      {
-        "name": "site",
-        "type": "radio"
-      },
-      {
-        "name": "site",
-        "type": "radio"
-      },
-      {
-        "name": "__children[site][]",
-        "type": "hidden"
-      },
-      {
-        "name": "search",
-        "type": "radio"
-      },
-      {
-        "name": "search",
-        "type": "radio"
-      },
-      {
-        "name": "__children[search][]",
-        "type": "hidden"
-      },
-      {
-        "name": "form-agree[data][]",
-        "type": "checkbox"
-      },
-      {
-        "name": "form-agree[separator]",
-        "type": "hidden"
-      },
-      {
-        "name": "__children[form-agree][]",
-        "type": "hidden"
-      },
-      {
-        "name": "mw_wp_form_token",
-        "type": "hidden"
-      },
-      {
-        "name": "_wp_http_referer",
-        "type": "hidden"
-      },
-      {
-        "name": "mw-wp-form-form-id",
-        "type": "hidden"
-      },
-      {
-        "name": "mw-wp-form-form-verify-token",
-        "type": "hidden"
-      }
-    ]
+    "inputs": [
+      "<input type=\"text\" name=\"fullname\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"全角文字（例：鈴木 太郎）\">",
+      "<input type=\"text\" name=\"rubi\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"全角文字（例：スズキタロウ） \">",
+      "<input type=\"email\" name=\"mail\" class=\"c-form__tf -mail\" size=\"60\" value=\"\" placeholder=\"半角英数字（例：suzuki@rede.jp） \" data-conv-half-alphanumeric=\"true\">",
+      "<input type=\"text\" name=\"postal-code\" class=\"c-form__tf p-postal-code\" size=\"60\" value=\"\" placeholder=\"半角数字（例：123-4567）\">",
+      "<input type=\"text\" name=\"address-locality\" class=\"c-form__tf p-locality\" size=\"60\" value=\"\" placeholder=\"例：新宿区\">",
+      "<input type=\"text\" name=\"address-street\" class=\"c-form__tf p-street-address p-extended-address\" size=\"60\" value=\"\" placeholder=\"例：新宿町1-1-1\">",
+      "<input type=\"text\" name=\"address-building\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"\">",
+      "<input type=\"text\" name=\"tel\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"半角数字（例：080-1234-5678）\">",
+      "<input type=\"radio\" name=\"site\" value=\"あり\">",
+      "<input type=\"radio\" name=\"site\" value=\"なし\">",
+      "<input type=\"hidden\" name=\"__children[site][]\" value=\"{&quot;\\u3042\\u308a&quot;:&quot;\\u3042\\u308a&quot;,&quot;\\u306a\\u3057&quot;:&quot;\\u306a\\u3057&quot;}\">",
+      "<input type=\"radio\" name=\"search\" value=\"あり\">",
+      "<input type=\"radio\" name=\"search\" value=\"なし\">",
+      "<input type=\"hidden\" name=\"__children[search][]\" value=\"{&quot;\\u3042\\u308a&quot;:&quot;\\u3042\\u308a&quot;,&quot;\\u306a\\u3057&quot;:&quot;\\u306a\\u3057&quot;}\">",
+      "<input type=\"checkbox\" name=\"form-agree[data][]\" value=\"以上の内容で送信してよろしければチェックしてください。\" class=\"c-form__agreement-checkbox\">",
+      "<input type=\"hidden\" name=\"form-agree[separator]\" value=\",\">",
+      "<input type=\"hidden\" name=\"__children[form-agree][]\" value=\"{&quot;\\u4ee5\\u4e0a\\u306e\\u5185\\u5bb9\\u3067\\u9001\\u4fe1\\u3057\\u3066\\u3088\\u308d\\u3057\\u3051\\u308c\\u3070\\u30c1\\u30a7\\u30c3\\u30af\\u3057\\u3066\\u304f\\u3060\\u3055\\u3044\\u3002&quot;:&quot;\\u4ee5\\u4e0a\\u306e\\u5185\\u5bb9\\u3067\\u9001\\u4fe1\\u3057\\u3066\\u3088\\u308d\\u3057\\u3051\\u308c\\u3070\\u30c1\\u30a7\\u30c3\\u30af\\u3057\\u3066\\u304f\\u3060\\u3055\\u3044\\u3002&quot;}\">",
+      "<input class=\"p-country-name\" type=\"hidden\" value=\"Japan\">",
+      "<input type=\"hidden\" id=\"mw_wp_form_token\" name=\"mw_wp_form_token\" value=\"f8378b5ad4\">",
+      "<input type=\"hidden\" name=\"_wp_http_referer\" value=\"/catalog/\">",
+      "<input type=\"hidden\" name=\"mw-wp-form-form-id\" value=\"848\">",
+      "<input type=\"hidden\" name=\"mw-wp-form-form-verify-token\" value=\"f12a047b4ce434d5daafaa6f863fc9c0f0b7b435\">"
+    ],
+    "selectors": {
+      "em": "mail",
+      "fn": "",
+      "ln": "",
+      "ph": "tel",
+      "ct": "",
+      "st": "address-street",
+      "zp": "postal-code",
+      "country": ""
+    }
   },
   {
     "title": "【世田谷区】築50年越え！戸建て住宅フルリノベーション｜OB様宅訪問会 - 中古住宅での暮らしを快適にREDESIGN(リデザイン)",
     "form": "<form action=\"/events/kengaku_20230423/#wpcf7-f2000-p1992-o1\" method=\"post\" class=\"wpcf7-form init\" novalidate=\"novalidate\" data-status=\"init\">",
-    "allInputs": [
-      {
-        "name": "_wpcf7",
-        "type": "hidden"
-      },
-      {
-        "name": "_wpcf7_version",
-        "type": "hidden"
-      },
-      {
-        "name": "_wpcf7_locale",
-        "type": "hidden"
-      },
-      {
-        "name": "_wpcf7_unit_tag",
-        "type": "hidden"
-      },
-      {
-        "name": "_wpcf7_container_post",
-        "type": "hidden"
-      },
-      {
-        "name": "_wpcf7_posted_data_hash",
-        "type": "hidden"
-      },
-      {
-        "name": "fullname",
-        "type": "text"
-      },
-      {
-        "name": "rubi",
-        "type": "text"
-      },
-      {
-        "name": "mail",
-        "type": "email"
-      },
-      {
-        "name": "tel",
-        "type": "tel"
-      },
-      {
-        "name": "agreement",
-        "type": "checkbox"
-      }
-    ]
+    "inputs": [
+      "<input type=\"hidden\" name=\"_wpcf7\" value=\"2000\">",
+      "<input type=\"hidden\" name=\"_wpcf7_version\" value=\"5.5.3\">",
+      "<input type=\"hidden\" name=\"_wpcf7_locale\" value=\"ja\">",
+      "<input type=\"hidden\" name=\"_wpcf7_unit_tag\" value=\"wpcf7-f2000-p1992-o1\">",
+      "<input type=\"hidden\" name=\"_wpcf7_container_post\" value=\"1992\">",
+      "<input type=\"hidden\" name=\"_wpcf7_posted_data_hash\" value=\"\">",
+      "<input type=\"text\" name=\"fullname\" value=\"\" size=\"40\" class=\"wpcf7-form-control wpcf7-text wpcf7-validates-as-required c-form__tf\" aria-required=\"true\" aria-invalid=\"false\" placeholder=\"全角文字（例：鈴木 太郎）\">",
+      "<input type=\"text\" name=\"rubi\" value=\"\" size=\"40\" class=\"wpcf7-form-control wpcf7-text wpcf7-validates-as-required c-form__tf\" aria-required=\"true\" aria-invalid=\"false\" placeholder=\"全角文字（例：スズキタロウ）\">",
+      "<input type=\"email\" name=\"mail\" value=\"\" size=\"40\" class=\"wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email c-form__tf -mail\" aria-required=\"true\" aria-invalid=\"false\" placeholder=\"半角英数字（例：suzuki@rede.jp）\">",
+      "<input type=\"tel\" name=\"tel\" value=\"\" size=\"40\" class=\"wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel c-form__tf\" aria-required=\"true\" aria-invalid=\"false\" placeholder=\"半角数字（例：080-1234-5678）\">",
+      "<input type=\"checkbox\" name=\"agreement\" value=\"1\" aria-invalid=\"false\">",
+      "<input type=\"submit\" value=\"申し込む\" class=\"wpcf7-form-control has-spinner wpcf7-submit c-btn -submit\" disabled=\"\">"
+    ],
+    "selectors": {
+      "em": "mail",
+      "fn": "",
+      "ln": "",
+      "ph": "tel",
+      "ct": "",
+      "st": "address-street",
+      "zp": "postal-code",
+      "country": ""
+    }
   },
   {
     "title": "中古住宅・中古物件のリノベーションの建築実例・施工例、間取り｜中古住宅での暮らしを快適にREDESIGN(リデザイン)",
     "form": "<form action=\".\">",
-    "allInputs": [
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "two_family",
-        "type": "checkbox"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "search_house",
-        "type": "checkbox"
-      },
-      {
-        "name": "owned_house",
-        "type": "checkbox"
-      },
-      {
-        "name": "relocation",
-        "type": "checkbox"
-      },
-      {
-        "name": "order_kitchen",
-        "type": "checkbox"
-      },
-      {
-        "name": "workspace",
-        "type": "checkbox"
-      },
-      {
-        "name": "old_anti_earthquake",
-        "type": "checkbox"
-      }
-    ]
+    "inputs": [
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"0\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"50\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"60\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"70\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"80\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"90\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"100\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"1\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"2\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"3\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"4\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"5\">",
+      "<input type=\"checkbox\" name=\"two_family\" value=\"1\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"0\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"750\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1000\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1250\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1500\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1750\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"1\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"2\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"3\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"4\">",
+      "<input type=\"checkbox\" name=\"search_house\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"owned_house\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"relocation\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"order_kitchen\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"workspace\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"old_anti_earthquake\" value=\"1\">"
+    ],
+    "selectors": {
+      "em": "mail",
+      "fn": "",
+      "ln": "",
+      "ph": "tel",
+      "ct": "",
+      "st": "address-street",
+      "zp": "postal-code",
+      "country": ""
+    }
   },
   {
     "title": "[個別セミナー] プロが教える！ 最高の「物件探し」と「資金計画」セミナー - 中古住宅での暮らしを快適にREDESIGN(リデザイン)",
     "form": "<form action=\"/events/seminar_20230407-0418/#wpcf7-f1972-p1945-o1\" method=\"post\" class=\"wpcf7-form init\" novalidate=\"novalidate\" data-status=\"init\">",
-    "allInputs": [
-      {
-        "name": "_wpcf7",
-        "type": "hidden"
-      },
-      {
-        "name": "_wpcf7_version",
-        "type": "hidden"
-      },
-      {
-        "name": "_wpcf7_locale",
-        "type": "hidden"
-      },
-      {
-        "name": "_wpcf7_unit_tag",
-        "type": "hidden"
-      },
-      {
-        "name": "_wpcf7_container_post",
-        "type": "hidden"
-      },
-      {
-        "name": "_wpcf7_posted_data_hash",
-        "type": "hidden"
-      },
-      {
-        "name": "fullname",
-        "type": "text"
-      },
-      {
-        "name": "rubi",
-        "type": "text"
-      },
-      {
-        "name": "mail",
-        "type": "email"
-      },
-      {
-        "name": "tel",
-        "type": "tel"
-      },
-      {
-        "name": "adult",
-        "type": "number"
-      },
-      {
-        "name": "child",
-        "type": "number"
-      },
-      {
-        "name": "agreement",
-        "type": "checkbox"
-      }
-    ]
+    "inputs": [
+      "<input type=\"hidden\" name=\"_wpcf7\" value=\"1972\">",
+      "<input type=\"hidden\" name=\"_wpcf7_version\" value=\"5.5.3\">",
+      "<input type=\"hidden\" name=\"_wpcf7_locale\" value=\"ja\">",
+      "<input type=\"hidden\" name=\"_wpcf7_unit_tag\" value=\"wpcf7-f1972-p1945-o1\">",
+      "<input type=\"hidden\" name=\"_wpcf7_container_post\" value=\"1945\">",
+      "<input type=\"hidden\" name=\"_wpcf7_posted_data_hash\" value=\"\">",
+      "<input type=\"text\" name=\"fullname\" value=\"\" size=\"40\" class=\"wpcf7-form-control wpcf7-text wpcf7-validates-as-required c-form__tf\" aria-required=\"true\" aria-invalid=\"false\" placeholder=\"全角文字（例：鈴木 太郎）\">",
+      "<input type=\"text\" name=\"rubi\" value=\"\" size=\"40\" class=\"wpcf7-form-control wpcf7-text wpcf7-validates-as-required c-form__tf\" aria-required=\"true\" aria-invalid=\"false\" placeholder=\"全角文字（例：スズキタロウ）\">",
+      "<input type=\"email\" name=\"mail\" value=\"\" size=\"40\" class=\"wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email c-form__tf -mail\" aria-required=\"true\" aria-invalid=\"false\" placeholder=\"半角英数字（例：suzuki@rede.jp）\">",
+      "<input type=\"tel\" name=\"tel\" value=\"\" size=\"40\" class=\"wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel c-form__tf\" aria-required=\"true\" aria-invalid=\"false\" placeholder=\"半角数字（例：080-1234-5678）\">",
+      "<input type=\"number\" name=\"adult\" value=\"\" class=\"wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number c-form__num\" aria-required=\"true\" aria-invalid=\"false\">",
+      "<input type=\"number\" name=\"child\" value=\"\" class=\"wpcf7-form-control wpcf7-number wpcf7-validates-as-number c-form__num\" aria-invalid=\"false\">",
+      "<input type=\"checkbox\" name=\"agreement\" value=\"1\" aria-invalid=\"false\">",
+      "<input type=\"submit\" value=\"申し込む\" class=\"wpcf7-form-control has-spinner wpcf7-submit c-btn -submit\" disabled=\"\">"
+    ],
+    "selectors": {
+      "em": "mail",
+      "fn": "",
+      "ln": "",
+      "ph": "tel",
+      "ct": "",
+      "st": "address-street",
+      "zp": "postal-code",
+      "country": ""
+    }
   },
   {
     "title": "中古住宅・中古物件のリノベーションの建築実例・施工例、間取り｜中古住宅での暮らしを快適にREDESIGN(リデザイン)",
     "form": "<form action=\".\">",
-    "allInputs": [
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "two_family",
-        "type": "checkbox"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "search_house",
-        "type": "checkbox"
-      },
-      {
-        "name": "owned_house",
-        "type": "checkbox"
-      },
-      {
-        "name": "relocation",
-        "type": "checkbox"
-      },
-      {
-        "name": "order_kitchen",
-        "type": "checkbox"
-      },
-      {
-        "name": "workspace",
-        "type": "checkbox"
-      },
-      {
-        "name": "old_anti_earthquake",
-        "type": "checkbox"
-      }
-    ]
+    "inputs": [
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"0\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"50\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"60\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"70\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"80\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"90\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"100\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"1\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"2\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"3\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"4\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"5\">",
+      "<input type=\"checkbox\" name=\"two_family\" value=\"1\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"0\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"750\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1000\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1250\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1500\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1750\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"1\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"2\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"3\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"4\">",
+      "<input type=\"checkbox\" name=\"search_house\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"owned_house\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"relocation\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"order_kitchen\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"workspace\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"old_anti_earthquake\" value=\"1\">"
+    ],
+    "selectors": {
+      "em": "mail",
+      "fn": "",
+      "ln": "",
+      "ph": "tel",
+      "ct": "",
+      "st": "address-street",
+      "zp": "postal-code",
+      "country": ""
+    }
   },
   {
     "title": "中古住宅・中古物件のリノベーションの建築実例・施工例、間取り｜中古住宅での暮らしを快適にREDESIGN(リデザイン)",
     "form": "<form action=\".\">",
-    "allInputs": [
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "two_family",
-        "type": "checkbox"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "search_house",
-        "type": "checkbox"
-      },
-      {
-        "name": "owned_house",
-        "type": "checkbox"
-      },
-      {
-        "name": "relocation",
-        "type": "checkbox"
-      },
-      {
-        "name": "order_kitchen",
-        "type": "checkbox"
-      },
-      {
-        "name": "workspace",
-        "type": "checkbox"
-      },
-      {
-        "name": "old_anti_earthquake",
-        "type": "checkbox"
-      }
-    ]
+    "inputs": [
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"0\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"50\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"60\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"70\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"80\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"90\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"100\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"1\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"2\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"3\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"4\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"5\">",
+      "<input type=\"checkbox\" name=\"two_family\" value=\"1\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"0\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"750\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1000\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1250\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1500\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1750\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"1\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"2\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"3\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"4\">",
+      "<input type=\"checkbox\" name=\"search_house\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"owned_house\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"relocation\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"order_kitchen\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"workspace\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"old_anti_earthquake\" value=\"1\">"
+    ],
+    "selectors": {
+      "em": "mail",
+      "fn": "",
+      "ln": "",
+      "ph": "tel",
+      "ct": "",
+      "st": "address-street",
+      "zp": "postal-code",
+      "country": ""
+    }
   },
   {
     "title": "[オンライン可]住みたいエリアから考えるフルリノベーション相談会 - 中古住宅での暮らしを快適にREDESIGN(リデザイン)",
     "form": "<form action=\"/events/theme_20230331_0425/#wpcf7-f1970-p1857-o1\" method=\"post\" class=\"wpcf7-form init\" novalidate=\"novalidate\" data-status=\"init\">",
-    "allInputs": [
-      {
-        "name": "_wpcf7",
-        "type": "hidden"
-      },
-      {
-        "name": "_wpcf7_version",
-        "type": "hidden"
-      },
-      {
-        "name": "_wpcf7_locale",
-        "type": "hidden"
-      },
-      {
-        "name": "_wpcf7_unit_tag",
-        "type": "hidden"
-      },
-      {
-        "name": "_wpcf7_container_post",
-        "type": "hidden"
-      },
-      {
-        "name": "_wpcf7_posted_data_hash",
-        "type": "hidden"
-      },
-      {
-        "name": "fullname",
-        "type": "text"
-      },
-      {
-        "name": "rubi",
-        "type": "text"
-      },
-      {
-        "name": "mail",
-        "type": "email"
-      },
-      {
-        "name": "tel",
-        "type": "tel"
-      },
-      {
-        "name": "adult",
-        "type": "number"
-      },
-      {
-        "name": "child",
-        "type": "number"
-      },
-      {
-        "name": "agreement",
-        "type": "checkbox"
-      }
-    ]
+    "inputs": [
+      "<input type=\"hidden\" name=\"_wpcf7\" value=\"1970\">",
+      "<input type=\"hidden\" name=\"_wpcf7_version\" value=\"5.5.3\">",
+      "<input type=\"hidden\" name=\"_wpcf7_locale\" value=\"ja\">",
+      "<input type=\"hidden\" name=\"_wpcf7_unit_tag\" value=\"wpcf7-f1970-p1857-o1\">",
+      "<input type=\"hidden\" name=\"_wpcf7_container_post\" value=\"1857\">",
+      "<input type=\"hidden\" name=\"_wpcf7_posted_data_hash\" value=\"\">",
+      "<input type=\"text\" name=\"fullname\" value=\"\" size=\"40\" class=\"wpcf7-form-control wpcf7-text wpcf7-validates-as-required c-form__tf\" aria-required=\"true\" aria-invalid=\"false\" placeholder=\"全角文字（例：鈴木 太郎）\">",
+      "<input type=\"text\" name=\"rubi\" value=\"\" size=\"40\" class=\"wpcf7-form-control wpcf7-text wpcf7-validates-as-required c-form__tf\" aria-required=\"true\" aria-invalid=\"false\" placeholder=\"全角文字（例：スズキタロウ）\">",
+      "<input type=\"email\" name=\"mail\" value=\"\" size=\"40\" class=\"wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email c-form__tf -mail\" aria-required=\"true\" aria-invalid=\"false\" placeholder=\"半角英数字（例：suzuki@rede.jp）\">",
+      "<input type=\"tel\" name=\"tel\" value=\"\" size=\"40\" class=\"wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel c-form__tf\" aria-required=\"true\" aria-invalid=\"false\" placeholder=\"半角数字（例：080-1234-5678）\">",
+      "<input type=\"number\" name=\"adult\" value=\"\" class=\"wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number c-form__num\" aria-required=\"true\" aria-invalid=\"false\">",
+      "<input type=\"number\" name=\"child\" value=\"\" class=\"wpcf7-form-control wpcf7-number wpcf7-validates-as-number c-form__num\" aria-invalid=\"false\">",
+      "<input type=\"checkbox\" name=\"agreement\" value=\"1\" aria-invalid=\"false\">",
+      "<input type=\"submit\" value=\"申し込む\" class=\"wpcf7-form-control has-spinner wpcf7-submit c-btn -submit\" disabled=\"\">"
+    ],
+    "selectors": {
+      "em": "mail",
+      "fn": "",
+      "ln": "",
+      "ph": "tel",
+      "ct": "",
+      "st": "address-street",
+      "zp": "postal-code",
+      "country": ""
+    }
   },
   {
     "title": "リノベーション無料相談窓口｜中古住宅での暮らしを快適にREDESIGN(リデザイン)",
     "form": "<form method=\"post\" action=\"\" enctype=\"multipart/form-data\" class=\"h-adr\">",
-    "allInputs": [
-      {
-        "name": "fullname",
-        "type": "text"
-      },
-      {
-        "name": "rubi",
-        "type": "text"
-      },
-      {
-        "name": "mail",
-        "type": "email"
-      },
-      {
-        "name": "tel",
-        "type": "text"
-      },
-      {
-        "name": "postal-code",
-        "type": "text"
-      },
-      {
-        "name": "address-locality",
-        "type": "text"
-      },
-      {
-        "name": "address-street",
-        "type": "text"
-      },
-      {
-        "name": "address-building",
-        "type": "text"
-      },
-      {
-        "name": "date_1",
-        "type": "text"
-      },
-      {
-        "name": "date_2",
-        "type": "text"
-      },
-      {
-        "name": "date_3",
-        "type": "text"
-      },
-      {
-        "name": "status",
-        "type": "radio"
-      },
-      {
-        "name": "status",
-        "type": "radio"
-      },
-      {
-        "name": "status",
-        "type": "radio"
-      },
-      {
-        "name": "status",
-        "type": "radio"
-      },
-      {
-        "name": "__children[status][]",
-        "type": "hidden"
-      },
-      {
-        "name": "form-agree[data][]",
-        "type": "checkbox"
-      },
-      {
-        "name": "form-agree[separator]",
-        "type": "hidden"
-      },
-      {
-        "name": "__children[form-agree][]",
-        "type": "hidden"
-      },
-      {
-        "name": "mw_wp_form_token",
-        "type": "hidden"
-      },
-      {
-        "name": "_wp_http_referer",
-        "type": "hidden"
-      },
-      {
-        "name": "mw-wp-form-form-id",
-        "type": "hidden"
-      },
-      {
-        "name": "mw-wp-form-form-verify-token",
-        "type": "hidden"
-      }
-    ]
+    "inputs": [
+      "<input type=\"text\" name=\"fullname\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"全角文字（例：鈴木 太郎）\">",
+      "<input type=\"text\" name=\"rubi\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"全角文字（例：スズキタロウ） \">",
+      "<input type=\"email\" name=\"mail\" class=\"c-form__tf -mail\" size=\"60\" value=\"\" placeholder=\"半角英数字（例：suzuki@rede.jp） \" data-conv-half-alphanumeric=\"true\">",
+      "<input type=\"text\" name=\"tel\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"半角数字（例：080-1234-5678）\">",
+      "<input type=\"text\" name=\"postal-code\" class=\"c-form__tf p-postal-code\" size=\"60\" value=\"\" placeholder=\"半角数字（例：123-4567）\">",
+      "<input type=\"text\" name=\"address-locality\" class=\"c-form__tf p-locality\" size=\"60\" value=\"\" placeholder=\"例：新宿区\">",
+      "<input type=\"text\" name=\"address-street\" class=\"c-form__tf p-street-address p-extended-address\" size=\"60\" value=\"\" placeholder=\"例：新宿町1-1-1\">",
+      "<input type=\"text\" name=\"address-building\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"\">",
+      "<input type=\"text\" name=\"date_1\" class=\"c-form__tf c-form__datepicker hasDatepicker\" size=\"30\" value=\"\" placeholder=\"日にち\" id=\"dp1681891057563\">",
+      "<input type=\"text\" name=\"date_2\" class=\"c-form__tf c-form__datepicker hasDatepicker\" size=\"30\" value=\"\" placeholder=\"日にち\" id=\"dp1681891057564\">",
+      "<input type=\"text\" name=\"date_3\" class=\"c-form__tf c-form__datepicker hasDatepicker\" size=\"30\" value=\"\" placeholder=\"日にち\" id=\"dp1681891057565\">",
+      "<input type=\"radio\" name=\"status\" value=\"所有している（マンション）\">",
+      "<input type=\"radio\" name=\"status\" value=\"所有している（戸建）\">",
+      "<input type=\"radio\" name=\"status\" value=\"購入予定の物件がある\">",
+      "<input type=\"radio\" name=\"status\" value=\"物件を探している/探しはじめ\">",
+      "<input type=\"hidden\" name=\"__children[status][]\" value=\"{&quot;\\u6240\\u6709\\u3057\\u3066\\u3044\\u308b\\uff08\\u30de\\u30f3\\u30b7\\u30e7\\u30f3\\uff09&quot;:&quot;\\u6240\\u6709\\u3057\\u3066\\u3044\\u308b\\uff08\\u30de\\u30f3\\u30b7\\u30e7\\u30f3\\uff09&quot;,&quot;\\u6240\\u6709\\u3057\\u3066\\u3044\\u308b\\uff08\\u6238\\u5efa\\uff09&quot;:&quot;\\u6240\\u6709\\u3057\\u3066\\u3044\\u308b\\uff08\\u6238\\u5efa\\uff09&quot;,&quot;\\u8cfc\\u5165\\u4e88\\u5b9a\\u306e\\u7269\\u4ef6\\u304c\\u3042\\u308b&quot;:&quot;\\u8cfc\\u5165\\u4e88\\u5b9a\\u306e\\u7269\\u4ef6\\u304c\\u3042\\u308b&quot;,&quot;\\u7269\\u4ef6\\u3092\\u63a2\\u3057\\u3066\\u3044\\u308b\\/\\u63a2\\u3057\\u306f\\u3058\\u3081&quot;:&quot;\\u7269\\u4ef6\\u3092\\u63a2\\u3057\\u3066\\u3044\\u308b\\/\\u63a2\\u3057\\u306f\\u3058\\u3081&quot;}\">",
+      "<input type=\"checkbox\" name=\"form-agree[data][]\" value=\"以上の内容で送信してよろしければチェックしてください。\" class=\"c-form__agreement-checkbox\">",
+      "<input type=\"hidden\" name=\"form-agree[separator]\" value=\",\">",
+      "<input type=\"hidden\" name=\"__children[form-agree][]\" value=\"{&quot;\\u4ee5\\u4e0a\\u306e\\u5185\\u5bb9\\u3067\\u9001\\u4fe1\\u3057\\u3066\\u3088\\u308d\\u3057\\u3051\\u308c\\u3070\\u30c1\\u30a7\\u30c3\\u30af\\u3057\\u3066\\u304f\\u3060\\u3055\\u3044\\u3002&quot;:&quot;\\u4ee5\\u4e0a\\u306e\\u5185\\u5bb9\\u3067\\u9001\\u4fe1\\u3057\\u3066\\u3088\\u308d\\u3057\\u3051\\u308c\\u3070\\u30c1\\u30a7\\u30c3\\u30af\\u3057\\u3066\\u304f\\u3060\\u3055\\u3044\\u3002&quot;}\">",
+      "<input class=\"p-country-name\" type=\"hidden\" value=\"Japan\">",
+      "<input type=\"hidden\" id=\"mw_wp_form_token\" name=\"mw_wp_form_token\" value=\"f399bcf591\">",
+      "<input type=\"hidden\" name=\"_wp_http_referer\" value=\"/reception/\">",
+      "<input type=\"hidden\" name=\"mw-wp-form-form-id\" value=\"845\">",
+      "<input type=\"hidden\" name=\"mw-wp-form-form-verify-token\" value=\"8086ebcecf8712b893dc34e6292a0769f15f9152\">"
+    ],
+    "selectors": {
+      "em": "mail",
+      "fn": "",
+      "ln": "",
+      "ph": "tel",
+      "ct": "",
+      "st": "address-street",
+      "zp": "postal-code",
+      "country": ""
+    }
   },
   {
     "title": "中古住宅・中古物件探し無料相談窓口｜中古住宅での暮らしを快適にREDESIGN(リデザイン)",
     "form": "<form method=\"post\" action=\"\" enctype=\"multipart/form-data\" class=\"h-adr\">",
-    "allInputs": [
-      {
-        "name": "fullname",
-        "type": "text"
-      },
-      {
-        "name": "rubi",
-        "type": "text"
-      },
-      {
-        "name": "mail",
-        "type": "email"
-      },
-      {
-        "name": "tel",
-        "type": "text"
-      },
-      {
-        "name": "postal-code",
-        "type": "text"
-      },
-      {
-        "name": "address-locality",
-        "type": "text"
-      },
-      {
-        "name": "address-street",
-        "type": "text"
-      },
-      {
-        "name": "address-building",
-        "type": "text"
-      },
-      {
-        "name": "date_1",
-        "type": "text"
-      },
-      {
-        "name": "date_2",
-        "type": "text"
-      },
-      {
-        "name": "date_3",
-        "type": "text"
-      },
-      {
-        "name": "status",
-        "type": "radio"
-      },
-      {
-        "name": "status",
-        "type": "radio"
-      },
-      {
-        "name": "status",
-        "type": "radio"
-      },
-      {
-        "name": "status",
-        "type": "radio"
-      },
-      {
-        "name": "__children[status][]",
-        "type": "hidden"
-      },
-      {
-        "name": "form-agree[data][]",
-        "type": "checkbox"
-      },
-      {
-        "name": "form-agree[separator]",
-        "type": "hidden"
-      },
-      {
-        "name": "__children[form-agree][]",
-        "type": "hidden"
-      },
-      {
-        "name": "mw_wp_form_token",
-        "type": "hidden"
-      },
-      {
-        "name": "_wp_http_referer",
-        "type": "hidden"
-      },
-      {
-        "name": "mw-wp-form-form-id",
-        "type": "hidden"
-      },
-      {
-        "name": "mw-wp-form-form-verify-token",
-        "type": "hidden"
-      }
-    ]
+    "inputs": [
+      "<input type=\"text\" name=\"fullname\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"全角文字（例：鈴木 太郎）\">",
+      "<input type=\"text\" name=\"rubi\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"全角文字（例：スズキタロウ） \">",
+      "<input type=\"email\" name=\"mail\" class=\"c-form__tf -mail\" size=\"60\" value=\"\" placeholder=\"半角英数字（例：suzuki@rede.jp） \" data-conv-half-alphanumeric=\"true\">",
+      "<input type=\"text\" name=\"tel\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"半角数字（例：080-1234-5678）\">",
+      "<input type=\"text\" name=\"postal-code\" class=\"c-form__tf p-postal-code\" size=\"60\" value=\"\" placeholder=\"半角数字（例：123-4567）\">",
+      "<input type=\"text\" name=\"address-locality\" class=\"c-form__tf p-locality\" size=\"60\" value=\"\" placeholder=\"例：新宿区\">",
+      "<input type=\"text\" name=\"address-street\" class=\"c-form__tf p-street-address p-extended-address\" size=\"60\" value=\"\" placeholder=\"例：新宿町1-1-1\">",
+      "<input type=\"text\" name=\"address-building\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"\">",
+      "<input type=\"text\" name=\"date_1\" class=\"c-form__tf c-form__datepicker hasDatepicker\" size=\"30\" value=\"\" placeholder=\"日にち\" id=\"dp1681891057561\">",
+      "<input type=\"text\" name=\"date_2\" class=\"c-form__tf c-form__datepicker hasDatepicker\" size=\"30\" value=\"\" placeholder=\"日にち\" id=\"dp1681891057562\">",
+      "<input type=\"text\" name=\"date_3\" class=\"c-form__tf c-form__datepicker hasDatepicker\" size=\"30\" value=\"\" placeholder=\"日にち\" id=\"dp1681891057563\">",
+      "<input type=\"radio\" name=\"status\" value=\"所有している（マンション）\">",
+      "<input type=\"radio\" name=\"status\" value=\"所有している（戸建）\">",
+      "<input type=\"radio\" name=\"status\" value=\"購入予定の物件がある\">",
+      "<input type=\"radio\" name=\"status\" value=\"物件を探している/探しはじめ\">",
+      "<input type=\"hidden\" name=\"__children[status][]\" value=\"{&quot;\\u6240\\u6709\\u3057\\u3066\\u3044\\u308b\\uff08\\u30de\\u30f3\\u30b7\\u30e7\\u30f3\\uff09&quot;:&quot;\\u6240\\u6709\\u3057\\u3066\\u3044\\u308b\\uff08\\u30de\\u30f3\\u30b7\\u30e7\\u30f3\\uff09&quot;,&quot;\\u6240\\u6709\\u3057\\u3066\\u3044\\u308b\\uff08\\u6238\\u5efa\\uff09&quot;:&quot;\\u6240\\u6709\\u3057\\u3066\\u3044\\u308b\\uff08\\u6238\\u5efa\\uff09&quot;,&quot;\\u8cfc\\u5165\\u4e88\\u5b9a\\u306e\\u7269\\u4ef6\\u304c\\u3042\\u308b&quot;:&quot;\\u8cfc\\u5165\\u4e88\\u5b9a\\u306e\\u7269\\u4ef6\\u304c\\u3042\\u308b&quot;,&quot;\\u7269\\u4ef6\\u3092\\u63a2\\u3057\\u3066\\u3044\\u308b\\/\\u63a2\\u3057\\u306f\\u3058\\u3081&quot;:&quot;\\u7269\\u4ef6\\u3092\\u63a2\\u3057\\u3066\\u3044\\u308b\\/\\u63a2\\u3057\\u306f\\u3058\\u3081&quot;}\">",
+      "<input type=\"checkbox\" name=\"form-agree[data][]\" value=\"以上の内容で送信してよろしければチェックしてください。\" class=\"c-form__agreement-checkbox\">",
+      "<input type=\"hidden\" name=\"form-agree[separator]\" value=\",\">",
+      "<input type=\"hidden\" name=\"__children[form-agree][]\" value=\"{&quot;\\u4ee5\\u4e0a\\u306e\\u5185\\u5bb9\\u3067\\u9001\\u4fe1\\u3057\\u3066\\u3088\\u308d\\u3057\\u3051\\u308c\\u3070\\u30c1\\u30a7\\u30c3\\u30af\\u3057\\u3066\\u304f\\u3060\\u3055\\u3044\\u3002&quot;:&quot;\\u4ee5\\u4e0a\\u306e\\u5185\\u5bb9\\u3067\\u9001\\u4fe1\\u3057\\u3066\\u3088\\u308d\\u3057\\u3051\\u308c\\u3070\\u30c1\\u30a7\\u30c3\\u30af\\u3057\\u3066\\u304f\\u3060\\u3055\\u3044\\u3002&quot;}\">",
+      "<input class=\"p-country-name\" type=\"hidden\" value=\"Japan\">",
+      "<input type=\"hidden\" id=\"mw_wp_form_token\" name=\"mw_wp_form_token\" value=\"801effe052\">",
+      "<input type=\"hidden\" name=\"_wp_http_referer\" value=\"/reception/house/\">",
+      "<input type=\"hidden\" name=\"mw-wp-form-form-id\" value=\"846\">",
+      "<input type=\"hidden\" name=\"mw-wp-form-form-verify-token\" value=\"2d6093396d675947b37f325c499e4a1817ca0742\">"
+    ],
+    "selectors": {
+      "em": "mail",
+      "fn": "",
+      "ln": "",
+      "ph": "tel",
+      "ct": "",
+      "st": "address-street",
+      "zp": "postal-code",
+      "country": ""
+    }
   },
   {
     "title": "オンライン無料相談窓口｜中古住宅での暮らしを快適にREDESIGN(リデザイン)",
     "form": "<form method=\"post\" action=\"\" enctype=\"multipart/form-data\" class=\"h-adr\">",
-    "allInputs": [
-      {
-        "name": "fullname",
-        "type": "text"
-      },
-      {
-        "name": "rubi",
-        "type": "text"
-      },
-      {
-        "name": "mail",
-        "type": "email"
-      },
-      {
-        "name": "tel",
-        "type": "text"
-      },
-      {
-        "name": "postal-code",
-        "type": "text"
-      },
-      {
-        "name": "address-locality",
-        "type": "text"
-      },
-      {
-        "name": "address-street",
-        "type": "text"
-      },
-      {
-        "name": "address-building",
-        "type": "text"
-      },
-      {
-        "name": "date_1",
-        "type": "text"
-      },
-      {
-        "name": "date_2",
-        "type": "text"
-      },
-      {
-        "name": "date_3",
-        "type": "text"
-      },
-      {
-        "name": "status",
-        "type": "radio"
-      },
-      {
-        "name": "status",
-        "type": "radio"
-      },
-      {
-        "name": "status",
-        "type": "radio"
-      },
-      {
-        "name": "status",
-        "type": "radio"
-      },
-      {
-        "name": "__children[status][]",
-        "type": "hidden"
-      },
-      {
-        "name": "form-agree[data][]",
-        "type": "checkbox"
-      },
-      {
-        "name": "form-agree[separator]",
-        "type": "hidden"
-      },
-      {
-        "name": "__children[form-agree][]",
-        "type": "hidden"
-      },
-      {
-        "name": "mw_wp_form_token",
-        "type": "hidden"
-      },
-      {
-        "name": "_wp_http_referer",
-        "type": "hidden"
-      },
-      {
-        "name": "mw-wp-form-form-id",
-        "type": "hidden"
-      },
-      {
-        "name": "mw-wp-form-form-verify-token",
-        "type": "hidden"
-      }
-    ]
+    "inputs": [
+      "<input type=\"text\" name=\"fullname\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"全角文字（例：鈴木 太郎）\">",
+      "<input type=\"text\" name=\"rubi\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"全角文字（例：スズキタロウ） \">",
+      "<input type=\"email\" name=\"mail\" class=\"c-form__tf -mail\" size=\"60\" value=\"\" placeholder=\"半角英数字（例：suzuki@rede.jp） \" data-conv-half-alphanumeric=\"true\">",
+      "<input type=\"text\" name=\"tel\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"半角数字（例：080-1234-5678）\">",
+      "<input type=\"text\" name=\"postal-code\" class=\"c-form__tf p-postal-code\" size=\"60\" value=\"\" placeholder=\"半角数字（例：123-4567）\">",
+      "<input type=\"text\" name=\"address-locality\" class=\"c-form__tf p-locality\" size=\"60\" value=\"\" placeholder=\"例：新宿区\">",
+      "<input type=\"text\" name=\"address-street\" class=\"c-form__tf p-street-address p-extended-address\" size=\"60\" value=\"\" placeholder=\"例：新宿町1-1-1\">",
+      "<input type=\"text\" name=\"address-building\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"\">",
+      "<input type=\"text\" name=\"date_1\" class=\"c-form__tf c-form__datepicker hasDatepicker\" size=\"30\" value=\"\" placeholder=\"日にち\" id=\"dp1681891058896\">",
+      "<input type=\"text\" name=\"date_2\" class=\"c-form__tf c-form__datepicker hasDatepicker\" size=\"30\" value=\"\" placeholder=\"日にち\" id=\"dp1681891058897\">",
+      "<input type=\"text\" name=\"date_3\" class=\"c-form__tf c-form__datepicker hasDatepicker\" size=\"30\" value=\"\" placeholder=\"日にち\" id=\"dp1681891058898\">",
+      "<input type=\"radio\" name=\"status\" value=\"所有している（マンション）\">",
+      "<input type=\"radio\" name=\"status\" value=\"所有している（戸建）\">",
+      "<input type=\"radio\" name=\"status\" value=\"購入予定の物件がある\">",
+      "<input type=\"radio\" name=\"status\" value=\"物件を探している/探しはじめ\">",
+      "<input type=\"hidden\" name=\"__children[status][]\" value=\"{&quot;\\u6240\\u6709\\u3057\\u3066\\u3044\\u308b\\uff08\\u30de\\u30f3\\u30b7\\u30e7\\u30f3\\uff09&quot;:&quot;\\u6240\\u6709\\u3057\\u3066\\u3044\\u308b\\uff08\\u30de\\u30f3\\u30b7\\u30e7\\u30f3\\uff09&quot;,&quot;\\u6240\\u6709\\u3057\\u3066\\u3044\\u308b\\uff08\\u6238\\u5efa\\uff09&quot;:&quot;\\u6240\\u6709\\u3057\\u3066\\u3044\\u308b\\uff08\\u6238\\u5efa\\uff09&quot;,&quot;\\u8cfc\\u5165\\u4e88\\u5b9a\\u306e\\u7269\\u4ef6\\u304c\\u3042\\u308b&quot;:&quot;\\u8cfc\\u5165\\u4e88\\u5b9a\\u306e\\u7269\\u4ef6\\u304c\\u3042\\u308b&quot;,&quot;\\u7269\\u4ef6\\u3092\\u63a2\\u3057\\u3066\\u3044\\u308b\\/\\u63a2\\u3057\\u306f\\u3058\\u3081&quot;:&quot;\\u7269\\u4ef6\\u3092\\u63a2\\u3057\\u3066\\u3044\\u308b\\/\\u63a2\\u3057\\u306f\\u3058\\u3081&quot;}\">",
+      "<input type=\"checkbox\" name=\"form-agree[data][]\" value=\"以上の内容で送信してよろしければチェックしてください。\" class=\"c-form__agreement-checkbox\">",
+      "<input type=\"hidden\" name=\"form-agree[separator]\" value=\",\">",
+      "<input type=\"hidden\" name=\"__children[form-agree][]\" value=\"{&quot;\\u4ee5\\u4e0a\\u306e\\u5185\\u5bb9\\u3067\\u9001\\u4fe1\\u3057\\u3066\\u3088\\u308d\\u3057\\u3051\\u308c\\u3070\\u30c1\\u30a7\\u30c3\\u30af\\u3057\\u3066\\u304f\\u3060\\u3055\\u3044\\u3002&quot;:&quot;\\u4ee5\\u4e0a\\u306e\\u5185\\u5bb9\\u3067\\u9001\\u4fe1\\u3057\\u3066\\u3088\\u308d\\u3057\\u3051\\u308c\\u3070\\u30c1\\u30a7\\u30c3\\u30af\\u3057\\u3066\\u304f\\u3060\\u3055\\u3044\\u3002&quot;}\">",
+      "<input class=\"p-country-name\" type=\"hidden\" value=\"Japan\">",
+      "<input type=\"hidden\" id=\"mw_wp_form_token\" name=\"mw_wp_form_token\" value=\"6ab414e1ed\">",
+      "<input type=\"hidden\" name=\"_wp_http_referer\" value=\"/reception/online/\">",
+      "<input type=\"hidden\" name=\"mw-wp-form-form-id\" value=\"847\">",
+      "<input type=\"hidden\" name=\"mw-wp-form-form-verify-token\" value=\"87bbe416c82efbdf5b78abd57cbc1b6580bf74e6\">"
+    ],
+    "selectors": {
+      "em": "mail",
+      "fn": "",
+      "ln": "",
+      "ph": "tel",
+      "ct": "",
+      "st": "address-street",
+      "zp": "postal-code",
+      "country": ""
+    }
   },
   {
     "title": "お問合せ｜中古住宅での暮らしを快適にREDESIGN(リデザイン)",
     "form": "<form method=\"post\" action=\"\" enctype=\"multipart/form-data\" class=\"h-adr\">",
-    "allInputs": [
-      {
-        "name": "fullname",
-        "type": "text"
-      },
-      {
-        "name": "rubi",
-        "type": "text"
-      },
-      {
-        "name": "mail",
-        "type": "email"
-      },
-      {
-        "name": "postal-code",
-        "type": "text"
-      },
-      {
-        "name": "address-locality",
-        "type": "text"
-      },
-      {
-        "name": "address-street",
-        "type": "text"
-      },
-      {
-        "name": "address-building",
-        "type": "text"
-      },
-      {
-        "name": "tel",
-        "type": "text"
-      },
-      {
-        "name": "form-agree[data][]",
-        "type": "checkbox"
-      },
-      {
-        "name": "form-agree[separator]",
-        "type": "hidden"
-      },
-      {
-        "name": "__children[form-agree][]",
-        "type": "hidden"
-      },
-      {
-        "name": "mw_wp_form_token",
-        "type": "hidden"
-      },
-      {
-        "name": "_wp_http_referer",
-        "type": "hidden"
-      },
-      {
-        "name": "mw-wp-form-form-id",
-        "type": "hidden"
-      },
-      {
-        "name": "mw-wp-form-form-verify-token",
-        "type": "hidden"
-      }
-    ]
+    "inputs": [
+      "<input type=\"text\" name=\"fullname\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"全角文字（例：鈴木 太郎）\">",
+      "<input type=\"text\" name=\"rubi\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"全角文字（例：スズキタロウ） \">",
+      "<input type=\"email\" name=\"mail\" class=\"c-form__tf -mail\" size=\"60\" value=\"\" placeholder=\"半角英数字（例：suzuki@rede.jp） \" data-conv-half-alphanumeric=\"true\">",
+      "<input type=\"text\" name=\"postal-code\" class=\"c-form__tf p-postal-code\" size=\"60\" value=\"\" placeholder=\"半角数字（例：123-4567）\">",
+      "<input type=\"text\" name=\"address-locality\" class=\"c-form__tf p-locality\" size=\"60\" value=\"\" placeholder=\"例：新宿区\">",
+      "<input type=\"text\" name=\"address-street\" class=\"c-form__tf p-street-address p-extended-address\" size=\"60\" value=\"\" placeholder=\"例：新宿町1-1-1\">",
+      "<input type=\"text\" name=\"address-building\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"\">",
+      "<input type=\"text\" name=\"tel\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"半角数字（例：080-1234-5678）\">",
+      "<input type=\"checkbox\" name=\"form-agree[data][]\" value=\"以上の内容で送信してよろしければチェックしてください。\" class=\"c-form__agreement-checkbox\">",
+      "<input type=\"hidden\" name=\"form-agree[separator]\" value=\",\">",
+      "<input type=\"hidden\" name=\"__children[form-agree][]\" value=\"{&quot;\\u4ee5\\u4e0a\\u306e\\u5185\\u5bb9\\u3067\\u9001\\u4fe1\\u3057\\u3066\\u3088\\u308d\\u3057\\u3051\\u308c\\u3070\\u30c1\\u30a7\\u30c3\\u30af\\u3057\\u3066\\u304f\\u3060\\u3055\\u3044\\u3002&quot;:&quot;\\u4ee5\\u4e0a\\u306e\\u5185\\u5bb9\\u3067\\u9001\\u4fe1\\u3057\\u3066\\u3088\\u308d\\u3057\\u3051\\u308c\\u3070\\u30c1\\u30a7\\u30c3\\u30af\\u3057\\u3066\\u304f\\u3060\\u3055\\u3044\\u3002&quot;}\">",
+      "<input class=\"p-country-name\" type=\"hidden\" value=\"Japan\">",
+      "<input type=\"hidden\" id=\"mw_wp_form_token\" name=\"mw_wp_form_token\" value=\"a355a9c771\">",
+      "<input type=\"hidden\" name=\"_wp_http_referer\" value=\"/inquiry/\">",
+      "<input type=\"hidden\" name=\"mw-wp-form-form-id\" value=\"825\">",
+      "<input type=\"hidden\" name=\"mw-wp-form-form-verify-token\" value=\"a3bcc8ebe3874d48524fea1b07f81e820bc336b2\">"
+    ],
+    "selectors": {
+      "em": "mail",
+      "fn": "",
+      "ln": "",
+      "ph": "tel",
+      "ct": "",
+      "st": "address-street",
+      "zp": "postal-code",
+      "country": ""
+    }
   },
   {
     "title": "リノベーション住宅のカタログ・お客様の声｜中古住宅での暮らしを快適にREDESIGN(リデザイン)",
     "form": "<form method=\"post\" action=\"\" enctype=\"multipart/form-data\" class=\"h-adr\">",
-    "allInputs": [
-      {
-        "name": "fullname",
-        "type": "text"
-      },
-      {
-        "name": "rubi",
-        "type": "text"
-      },
-      {
-        "name": "mail",
-        "type": "email"
-      },
-      {
-        "name": "postal-code",
-        "type": "text"
-      },
-      {
-        "name": "address-locality",
-        "type": "text"
-      },
-      {
-        "name": "address-street",
-        "type": "text"
-      },
-      {
-        "name": "address-building",
-        "type": "text"
-      },
-      {
-        "name": "tel",
-        "type": "text"
-      },
-      {
-        "name": "site",
-        "type": "radio"
-      },
-      {
-        "name": "site",
-        "type": "radio"
-      },
-      {
-        "name": "__children[site][]",
-        "type": "hidden"
-      },
-      {
-        "name": "search",
-        "type": "radio"
-      },
-      {
-        "name": "search",
-        "type": "radio"
-      },
-      {
-        "name": "__children[search][]",
-        "type": "hidden"
-      },
-      {
-        "name": "form-agree[data][]",
-        "type": "checkbox"
-      },
-      {
-        "name": "form-agree[separator]",
-        "type": "hidden"
-      },
-      {
-        "name": "__children[form-agree][]",
-        "type": "hidden"
-      },
-      {
-        "name": "mw_wp_form_token",
-        "type": "hidden"
-      },
-      {
-        "name": "_wp_http_referer",
-        "type": "hidden"
-      },
-      {
-        "name": "mw-wp-form-form-id",
-        "type": "hidden"
-      },
-      {
-        "name": "mw-wp-form-form-verify-token",
-        "type": "hidden"
-      }
-    ]
+    "inputs": [
+      "<input type=\"text\" name=\"fullname\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"全角文字（例：鈴木 太郎）\">",
+      "<input type=\"text\" name=\"rubi\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"全角文字（例：スズキタロウ） \">",
+      "<input type=\"email\" name=\"mail\" class=\"c-form__tf -mail\" size=\"60\" value=\"\" placeholder=\"半角英数字（例：suzuki@rede.jp） \" data-conv-half-alphanumeric=\"true\">",
+      "<input type=\"text\" name=\"postal-code\" class=\"c-form__tf p-postal-code\" size=\"60\" value=\"\" placeholder=\"半角数字（例：123-4567）\">",
+      "<input type=\"text\" name=\"address-locality\" class=\"c-form__tf p-locality\" size=\"60\" value=\"\" placeholder=\"例：新宿区\">",
+      "<input type=\"text\" name=\"address-street\" class=\"c-form__tf p-street-address p-extended-address\" size=\"60\" value=\"\" placeholder=\"例：新宿町1-1-1\">",
+      "<input type=\"text\" name=\"address-building\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"\">",
+      "<input type=\"text\" name=\"tel\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"半角数字（例：080-1234-5678）\">",
+      "<input type=\"radio\" name=\"site\" value=\"あり\">",
+      "<input type=\"radio\" name=\"site\" value=\"なし\">",
+      "<input type=\"hidden\" name=\"__children[site][]\" value=\"{&quot;\\u3042\\u308a&quot;:&quot;\\u3042\\u308a&quot;,&quot;\\u306a\\u3057&quot;:&quot;\\u306a\\u3057&quot;}\">",
+      "<input type=\"radio\" name=\"search\" value=\"あり\">",
+      "<input type=\"radio\" name=\"search\" value=\"なし\">",
+      "<input type=\"hidden\" name=\"__children[search][]\" value=\"{&quot;\\u3042\\u308a&quot;:&quot;\\u3042\\u308a&quot;,&quot;\\u306a\\u3057&quot;:&quot;\\u306a\\u3057&quot;}\">",
+      "<input type=\"checkbox\" name=\"form-agree[data][]\" value=\"以上の内容で送信してよろしければチェックしてください。\" class=\"c-form__agreement-checkbox\">",
+      "<input type=\"hidden\" name=\"form-agree[separator]\" value=\",\">",
+      "<input type=\"hidden\" name=\"__children[form-agree][]\" value=\"{&quot;\\u4ee5\\u4e0a\\u306e\\u5185\\u5bb9\\u3067\\u9001\\u4fe1\\u3057\\u3066\\u3088\\u308d\\u3057\\u3051\\u308c\\u3070\\u30c1\\u30a7\\u30c3\\u30af\\u3057\\u3066\\u304f\\u3060\\u3055\\u3044\\u3002&quot;:&quot;\\u4ee5\\u4e0a\\u306e\\u5185\\u5bb9\\u3067\\u9001\\u4fe1\\u3057\\u3066\\u3088\\u308d\\u3057\\u3051\\u308c\\u3070\\u30c1\\u30a7\\u30c3\\u30af\\u3057\\u3066\\u304f\\u3060\\u3055\\u3044\\u3002&quot;}\">",
+      "<input class=\"p-country-name\" type=\"hidden\" value=\"Japan\">",
+      "<input type=\"hidden\" id=\"mw_wp_form_token\" name=\"mw_wp_form_token\" value=\"f8378b5ad4\">",
+      "<input type=\"hidden\" name=\"_wp_http_referer\" value=\"/catalog/\">",
+      "<input type=\"hidden\" name=\"mw-wp-form-form-id\" value=\"848\">",
+      "<input type=\"hidden\" name=\"mw-wp-form-form-verify-token\" value=\"f12a047b4ce434d5daafaa6f863fc9c0f0b7b435\">"
+    ],
+    "selectors": {
+      "em": "mail",
+      "fn": "",
+      "ln": "",
+      "ph": "tel",
+      "ct": "",
+      "st": "address-street",
+      "zp": "postal-code",
+      "country": ""
+    }
   },
   {
     "title": "お知らせ｜中古住宅での暮らしを快適にREDESIGN(リデザイン)",
     "form": "<form action=\".\">",
-    "allInputs": [
-      {
-        "name": "news_tag[]",
-        "type": "checkbox"
-      },
-      {
-        "name": "news_tag[]",
-        "type": "checkbox"
-      }
-    ]
+    "inputs": [
+      "<input type=\"checkbox\" name=\"news_tag[]\" value=\"%e6%9a%ae%e3%82%89%e3%81%97%e3%81%ae%e8%a8%98%e4%ba%8b\">",
+      "<input type=\"checkbox\" name=\"news_tag[]\" value=\"%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%93%e3%83%a5%e3%83%bc\">"
+    ],
+    "selectors": {
+      "em": "mail",
+      "fn": "",
+      "ln": "",
+      "ph": "tel",
+      "ct": "",
+      "st": "address-street",
+      "zp": "postal-code",
+      "country": ""
+    }
   },
   {
     "title": "お知らせ｜中古住宅での暮らしを快適にREDESIGN(リデザイン)",
     "form": "<form action=\".\">",
-    "allInputs": [
-      {
-        "name": "news_tag[]",
-        "type": "checkbox"
-      },
-      {
-        "name": "news_tag[]",
-        "type": "checkbox"
-      }
-    ]
+    "inputs": [
+      "<input type=\"checkbox\" name=\"news_tag[]\" value=\"%e6%9a%ae%e3%82%89%e3%81%97%e3%81%ae%e8%a8%98%e4%ba%8b\">",
+      "<input type=\"checkbox\" name=\"news_tag[]\" value=\"%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%93%e3%83%a5%e3%83%bc\">"
+    ],
+    "selectors": {
+      "em": "mail",
+      "fn": "",
+      "ln": "",
+      "ph": "tel",
+      "ct": "",
+      "st": "address-street",
+      "zp": "postal-code",
+      "country": ""
+    }
   },
   {
     "title": "お知らせ｜中古住宅での暮らしを快適にREDESIGN(リデザイン)",
     "form": "<form action=\".\">",
-    "allInputs": [
-      {
-        "name": "news_tag[]",
-        "type": "checkbox"
-      },
-      {
-        "name": "news_tag[]",
-        "type": "checkbox"
-      }
-    ]
+    "inputs": [
+      "<input type=\"checkbox\" name=\"news_tag[]\" value=\"%e6%9a%ae%e3%82%89%e3%81%97%e3%81%ae%e8%a8%98%e4%ba%8b\">",
+      "<input type=\"checkbox\" name=\"news_tag[]\" value=\"%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%93%e3%83%a5%e3%83%bc\">"
+    ],
+    "selectors": {
+      "em": "mail",
+      "fn": "",
+      "ln": "",
+      "ph": "tel",
+      "ct": "",
+      "st": "address-street",
+      "zp": "postal-code",
+      "country": ""
+    }
   },
   {
     "title": "中古住宅・中古物件のリノベーションの建築実例・施工例、間取り｜中古住宅での暮らしを快適にREDESIGN(リデザイン)",
     "form": "<form action=\".\">",
-    "allInputs": [
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "two_family",
-        "type": "checkbox"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "search_house",
-        "type": "checkbox"
-      },
-      {
-        "name": "owned_house",
-        "type": "checkbox"
-      },
-      {
-        "name": "relocation",
-        "type": "checkbox"
-      },
-      {
-        "name": "order_kitchen",
-        "type": "checkbox"
-      },
-      {
-        "name": "workspace",
-        "type": "checkbox"
-      },
-      {
-        "name": "old_anti_earthquake",
-        "type": "checkbox"
-      }
-    ]
+    "inputs": [
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"0\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"50\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"60\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"70\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"80\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"90\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"100\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"1\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"2\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"3\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"4\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"5\">",
+      "<input type=\"checkbox\" name=\"two_family\" value=\"1\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"0\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"750\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1000\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1250\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1500\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1750\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"1\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"2\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"3\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"4\">",
+      "<input type=\"checkbox\" name=\"search_house\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"owned_house\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"relocation\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"order_kitchen\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"workspace\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"old_anti_earthquake\" value=\"1\">"
+    ],
+    "selectors": {
+      "em": "mail",
+      "fn": "",
+      "ln": "",
+      "ph": "tel",
+      "ct": "",
+      "st": "address-street",
+      "zp": "postal-code",
+      "country": ""
+    }
   },
   {
     "title": "お知らせ｜中古住宅での暮らしを快適にREDESIGN(リデザイン)",
     "form": "<form action=\".\">",
-    "allInputs": [
-      {
-        "name": "news_tag[]",
-        "type": "checkbox"
-      },
-      {
-        "name": "news_tag[]",
-        "type": "checkbox"
-      }
-    ]
+    "inputs": [
+      "<input type=\"checkbox\" name=\"news_tag[]\" value=\"%e6%9a%ae%e3%82%89%e3%81%97%e3%81%ae%e8%a8%98%e4%ba%8b\">",
+      "<input type=\"checkbox\" name=\"news_tag[]\" value=\"%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%93%e3%83%a5%e3%83%bc\">"
+    ],
+    "selectors": {
+      "em": "mail",
+      "fn": "",
+      "ln": "",
+      "ph": "tel",
+      "ct": "",
+      "st": "address-street",
+      "zp": "postal-code",
+      "country": ""
+    }
   },
   {
     "title": "お知らせ｜中古住宅での暮らしを快適にREDESIGN(リデザイン)",
     "form": "<form action=\".\">",
-    "allInputs": [
-      {
-        "name": "news_tag[]",
-        "type": "checkbox"
-      },
-      {
-        "name": "news_tag[]",
-        "type": "checkbox"
-      }
-    ]
+    "inputs": [
+      "<input type=\"checkbox\" name=\"news_tag[]\" value=\"%e6%9a%ae%e3%82%89%e3%81%97%e3%81%ae%e8%a8%98%e4%ba%8b\">",
+      "<input type=\"checkbox\" name=\"news_tag[]\" value=\"%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%93%e3%83%a5%e3%83%bc\">"
+    ],
+    "selectors": {
+      "em": "mail",
+      "fn": "",
+      "ln": "",
+      "ph": "tel",
+      "ct": "",
+      "st": "address-street",
+      "zp": "postal-code",
+      "country": ""
+    }
   },
   {
     "title": "中古住宅・中古物件のリノベーションの建築実例・施工例、間取り｜中古住宅での暮らしを快適にREDESIGN(リデザイン)",
     "form": "<form action=\".\">",
-    "allInputs": [
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "two_family",
-        "type": "checkbox"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "search_house",
-        "type": "checkbox"
-      },
-      {
-        "name": "owned_house",
-        "type": "checkbox"
-      },
-      {
-        "name": "relocation",
-        "type": "checkbox"
-      },
-      {
-        "name": "order_kitchen",
-        "type": "checkbox"
-      },
-      {
-        "name": "workspace",
-        "type": "checkbox"
-      },
-      {
-        "name": "old_anti_earthquake",
-        "type": "checkbox"
-      }
-    ]
+    "inputs": [
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"0\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"50\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"60\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"70\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"80\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"90\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"100\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"1\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"2\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"3\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"4\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"5\">",
+      "<input type=\"checkbox\" name=\"two_family\" value=\"1\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"0\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"750\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1000\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1250\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1500\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1750\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"1\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"2\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"3\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"4\">",
+      "<input type=\"checkbox\" name=\"search_house\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"owned_house\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"relocation\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"order_kitchen\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"workspace\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"old_anti_earthquake\" value=\"1\">"
+    ],
+    "selectors": {
+      "em": "mail",
+      "fn": "",
+      "ln": "",
+      "ph": "tel",
+      "ct": "",
+      "st": "address-street",
+      "zp": "postal-code",
+      "country": ""
+    }
   },
   {
     "title": "中古住宅・中古物件のリノベーションの建築実例・施工例、間取り｜中古住宅での暮らしを快適にREDESIGN(リデザイン)",
     "form": "<form action=\".\">",
-    "allInputs": [
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "two_family",
-        "type": "checkbox"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "search_house",
-        "type": "checkbox"
-      },
-      {
-        "name": "owned_house",
-        "type": "checkbox"
-      },
-      {
-        "name": "relocation",
-        "type": "checkbox"
-      },
-      {
-        "name": "order_kitchen",
-        "type": "checkbox"
-      },
-      {
-        "name": "workspace",
-        "type": "checkbox"
-      },
-      {
-        "name": "old_anti_earthquake",
-        "type": "checkbox"
-      }
-    ]
+    "inputs": [
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"0\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"50\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"60\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"70\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"80\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"90\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"100\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"1\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"2\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"3\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"4\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"5\">",
+      "<input type=\"checkbox\" name=\"two_family\" value=\"1\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"0\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"750\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1000\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1250\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1500\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1750\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"1\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"2\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"3\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"4\">",
+      "<input type=\"checkbox\" name=\"search_house\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"owned_house\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"relocation\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"order_kitchen\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"workspace\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"old_anti_earthquake\" value=\"1\">"
+    ],
+    "selectors": {
+      "em": "mail",
+      "fn": "",
+      "ln": "",
+      "ph": "tel",
+      "ct": "",
+      "st": "address-street",
+      "zp": "postal-code",
+      "country": ""
+    }
   },
   {
     "title": "リノベーション無料相談窓口｜中古住宅での暮らしを快適にREDESIGN(リデザイン)",
     "form": "<form method=\"post\" action=\"\" enctype=\"multipart/form-data\" class=\"h-adr\">",
-    "allInputs": [
-      {
-        "name": "fullname",
-        "type": "text"
-      },
-      {
-        "name": "rubi",
-        "type": "text"
-      },
-      {
-        "name": "mail",
-        "type": "email"
-      },
-      {
-        "name": "tel",
-        "type": "text"
-      },
-      {
-        "name": "postal-code",
-        "type": "text"
-      },
-      {
-        "name": "address-locality",
-        "type": "text"
-      },
-      {
-        "name": "address-street",
-        "type": "text"
-      },
-      {
-        "name": "address-building",
-        "type": "text"
-      },
-      {
-        "name": "date_1",
-        "type": "text"
-      },
-      {
-        "name": "date_2",
-        "type": "text"
-      },
-      {
-        "name": "date_3",
-        "type": "text"
-      },
-      {
-        "name": "status",
-        "type": "radio"
-      },
-      {
-        "name": "status",
-        "type": "radio"
-      },
-      {
-        "name": "status",
-        "type": "radio"
-      },
-      {
-        "name": "status",
-        "type": "radio"
-      },
-      {
-        "name": "__children[status][]",
-        "type": "hidden"
-      },
-      {
-        "name": "form-agree[data][]",
-        "type": "checkbox"
-      },
-      {
-        "name": "form-agree[separator]",
-        "type": "hidden"
-      },
-      {
-        "name": "__children[form-agree][]",
-        "type": "hidden"
-      },
-      {
-        "name": "mw_wp_form_token",
-        "type": "hidden"
-      },
-      {
-        "name": "_wp_http_referer",
-        "type": "hidden"
-      },
-      {
-        "name": "mw-wp-form-form-id",
-        "type": "hidden"
-      },
-      {
-        "name": "mw-wp-form-form-verify-token",
-        "type": "hidden"
-      }
-    ]
+    "inputs": [
+      "<input type=\"text\" name=\"fullname\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"全角文字（例：鈴木 太郎）\">",
+      "<input type=\"text\" name=\"rubi\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"全角文字（例：スズキタロウ） \">",
+      "<input type=\"email\" name=\"mail\" class=\"c-form__tf -mail\" size=\"60\" value=\"\" placeholder=\"半角英数字（例：suzuki@rede.jp） \" data-conv-half-alphanumeric=\"true\">",
+      "<input type=\"text\" name=\"tel\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"半角数字（例：080-1234-5678）\">",
+      "<input type=\"text\" name=\"postal-code\" class=\"c-form__tf p-postal-code\" size=\"60\" value=\"\" placeholder=\"半角数字（例：123-4567）\">",
+      "<input type=\"text\" name=\"address-locality\" class=\"c-form__tf p-locality\" size=\"60\" value=\"\" placeholder=\"例：新宿区\">",
+      "<input type=\"text\" name=\"address-street\" class=\"c-form__tf p-street-address p-extended-address\" size=\"60\" value=\"\" placeholder=\"例：新宿町1-1-1\">",
+      "<input type=\"text\" name=\"address-building\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"\">",
+      "<input type=\"text\" name=\"date_1\" class=\"c-form__tf c-form__datepicker hasDatepicker\" size=\"30\" value=\"\" placeholder=\"日にち\" id=\"dp1681891150424\">",
+      "<input type=\"text\" name=\"date_2\" class=\"c-form__tf c-form__datepicker hasDatepicker\" size=\"30\" value=\"\" placeholder=\"日にち\" id=\"dp1681891150425\">",
+      "<input type=\"text\" name=\"date_3\" class=\"c-form__tf c-form__datepicker hasDatepicker\" size=\"30\" value=\"\" placeholder=\"日にち\" id=\"dp1681891150426\">",
+      "<input type=\"radio\" name=\"status\" value=\"所有している（マンション）\">",
+      "<input type=\"radio\" name=\"status\" value=\"所有している（戸建）\">",
+      "<input type=\"radio\" name=\"status\" value=\"購入予定の物件がある\">",
+      "<input type=\"radio\" name=\"status\" value=\"物件を探している/探しはじめ\">",
+      "<input type=\"hidden\" name=\"__children[status][]\" value=\"{&quot;\\u6240\\u6709\\u3057\\u3066\\u3044\\u308b\\uff08\\u30de\\u30f3\\u30b7\\u30e7\\u30f3\\uff09&quot;:&quot;\\u6240\\u6709\\u3057\\u3066\\u3044\\u308b\\uff08\\u30de\\u30f3\\u30b7\\u30e7\\u30f3\\uff09&quot;,&quot;\\u6240\\u6709\\u3057\\u3066\\u3044\\u308b\\uff08\\u6238\\u5efa\\uff09&quot;:&quot;\\u6240\\u6709\\u3057\\u3066\\u3044\\u308b\\uff08\\u6238\\u5efa\\uff09&quot;,&quot;\\u8cfc\\u5165\\u4e88\\u5b9a\\u306e\\u7269\\u4ef6\\u304c\\u3042\\u308b&quot;:&quot;\\u8cfc\\u5165\\u4e88\\u5b9a\\u306e\\u7269\\u4ef6\\u304c\\u3042\\u308b&quot;,&quot;\\u7269\\u4ef6\\u3092\\u63a2\\u3057\\u3066\\u3044\\u308b\\/\\u63a2\\u3057\\u306f\\u3058\\u3081&quot;:&quot;\\u7269\\u4ef6\\u3092\\u63a2\\u3057\\u3066\\u3044\\u308b\\/\\u63a2\\u3057\\u306f\\u3058\\u3081&quot;}\">",
+      "<input type=\"checkbox\" name=\"form-agree[data][]\" value=\"以上の内容で送信してよろしければチェックしてください。\" class=\"c-form__agreement-checkbox\">",
+      "<input type=\"hidden\" name=\"form-agree[separator]\" value=\",\">",
+      "<input type=\"hidden\" name=\"__children[form-agree][]\" value=\"{&quot;\\u4ee5\\u4e0a\\u306e\\u5185\\u5bb9\\u3067\\u9001\\u4fe1\\u3057\\u3066\\u3088\\u308d\\u3057\\u3051\\u308c\\u3070\\u30c1\\u30a7\\u30c3\\u30af\\u3057\\u3066\\u304f\\u3060\\u3055\\u3044\\u3002&quot;:&quot;\\u4ee5\\u4e0a\\u306e\\u5185\\u5bb9\\u3067\\u9001\\u4fe1\\u3057\\u3066\\u3088\\u308d\\u3057\\u3051\\u308c\\u3070\\u30c1\\u30a7\\u30c3\\u30af\\u3057\\u3066\\u304f\\u3060\\u3055\\u3044\\u3002&quot;}\">",
+      "<input class=\"p-country-name\" type=\"hidden\" value=\"Japan\">",
+      "<input type=\"hidden\" id=\"mw_wp_form_token\" name=\"mw_wp_form_token\" value=\"f399bcf591\">",
+      "<input type=\"hidden\" name=\"_wp_http_referer\" value=\"/reception/\">",
+      "<input type=\"hidden\" name=\"mw-wp-form-form-id\" value=\"845\">",
+      "<input type=\"hidden\" name=\"mw-wp-form-form-verify-token\" value=\"8086ebcecf8712b893dc34e6292a0769f15f9152\">"
+    ],
+    "selectors": {
+      "em": "mail",
+      "fn": "",
+      "ln": "",
+      "ph": "tel",
+      "ct": "",
+      "st": "address-street",
+      "zp": "postal-code",
+      "country": ""
+    }
   },
   {
     "title": "お問合せ｜中古住宅での暮らしを快適にREDESIGN(リデザイン)",
     "form": "<form method=\"post\" action=\"\" enctype=\"multipart/form-data\" class=\"h-adr\">",
-    "allInputs": [
-      {
-        "name": "fullname",
-        "type": "text"
-      },
-      {
-        "name": "rubi",
-        "type": "text"
-      },
-      {
-        "name": "mail",
-        "type": "email"
-      },
-      {
-        "name": "postal-code",
-        "type": "text"
-      },
-      {
-        "name": "address-locality",
-        "type": "text"
-      },
-      {
-        "name": "address-street",
-        "type": "text"
-      },
-      {
-        "name": "address-building",
-        "type": "text"
-      },
-      {
-        "name": "tel",
-        "type": "text"
-      },
-      {
-        "name": "form-agree[data][]",
-        "type": "checkbox"
-      },
-      {
-        "name": "form-agree[separator]",
-        "type": "hidden"
-      },
-      {
-        "name": "__children[form-agree][]",
-        "type": "hidden"
-      },
-      {
-        "name": "mw_wp_form_token",
-        "type": "hidden"
-      },
-      {
-        "name": "_wp_http_referer",
-        "type": "hidden"
-      },
-      {
-        "name": "mw-wp-form-form-id",
-        "type": "hidden"
-      },
-      {
-        "name": "mw-wp-form-form-verify-token",
-        "type": "hidden"
-      }
-    ]
+    "inputs": [
+      "<input type=\"text\" name=\"fullname\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"全角文字（例：鈴木 太郎）\">",
+      "<input type=\"text\" name=\"rubi\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"全角文字（例：スズキタロウ） \">",
+      "<input type=\"email\" name=\"mail\" class=\"c-form__tf -mail\" size=\"60\" value=\"\" placeholder=\"半角英数字（例：suzuki@rede.jp） \" data-conv-half-alphanumeric=\"true\">",
+      "<input type=\"text\" name=\"postal-code\" class=\"c-form__tf p-postal-code\" size=\"60\" value=\"\" placeholder=\"半角数字（例：123-4567）\">",
+      "<input type=\"text\" name=\"address-locality\" class=\"c-form__tf p-locality\" size=\"60\" value=\"\" placeholder=\"例：新宿区\">",
+      "<input type=\"text\" name=\"address-street\" class=\"c-form__tf p-street-address p-extended-address\" size=\"60\" value=\"\" placeholder=\"例：新宿町1-1-1\">",
+      "<input type=\"text\" name=\"address-building\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"\">",
+      "<input type=\"text\" name=\"tel\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"半角数字（例：080-1234-5678）\">",
+      "<input type=\"checkbox\" name=\"form-agree[data][]\" value=\"以上の内容で送信してよろしければチェックしてください。\" class=\"c-form__agreement-checkbox\">",
+      "<input type=\"hidden\" name=\"form-agree[separator]\" value=\",\">",
+      "<input type=\"hidden\" name=\"__children[form-agree][]\" value=\"{&quot;\\u4ee5\\u4e0a\\u306e\\u5185\\u5bb9\\u3067\\u9001\\u4fe1\\u3057\\u3066\\u3088\\u308d\\u3057\\u3051\\u308c\\u3070\\u30c1\\u30a7\\u30c3\\u30af\\u3057\\u3066\\u304f\\u3060\\u3055\\u3044\\u3002&quot;:&quot;\\u4ee5\\u4e0a\\u306e\\u5185\\u5bb9\\u3067\\u9001\\u4fe1\\u3057\\u3066\\u3088\\u308d\\u3057\\u3051\\u308c\\u3070\\u30c1\\u30a7\\u30c3\\u30af\\u3057\\u3066\\u304f\\u3060\\u3055\\u3044\\u3002&quot;}\">",
+      "<input class=\"p-country-name\" type=\"hidden\" value=\"Japan\">",
+      "<input type=\"hidden\" id=\"mw_wp_form_token\" name=\"mw_wp_form_token\" value=\"a355a9c771\">",
+      "<input type=\"hidden\" name=\"_wp_http_referer\" value=\"/inquiry/\">",
+      "<input type=\"hidden\" name=\"mw-wp-form-form-id\" value=\"825\">",
+      "<input type=\"hidden\" name=\"mw-wp-form-form-verify-token\" value=\"a3bcc8ebe3874d48524fea1b07f81e820bc336b2\">"
+    ],
+    "selectors": {
+      "em": "mail",
+      "fn": "",
+      "ln": "",
+      "ph": "tel",
+      "ct": "",
+      "st": "address-street",
+      "zp": "postal-code",
+      "country": ""
+    }
   },
   {
     "title": "中古住宅・中古物件探し無料相談窓口｜中古住宅での暮らしを快適にREDESIGN(リデザイン)",
     "form": "<form method=\"post\" action=\"\" enctype=\"multipart/form-data\" class=\"h-adr\">",
-    "allInputs": [
-      {
-        "name": "fullname",
-        "type": "text"
-      },
-      {
-        "name": "rubi",
-        "type": "text"
-      },
-      {
-        "name": "mail",
-        "type": "email"
-      },
-      {
-        "name": "tel",
-        "type": "text"
-      },
-      {
-        "name": "postal-code",
-        "type": "text"
-      },
-      {
-        "name": "address-locality",
-        "type": "text"
-      },
-      {
-        "name": "address-street",
-        "type": "text"
-      },
-      {
-        "name": "address-building",
-        "type": "text"
-      },
-      {
-        "name": "date_1",
-        "type": "text"
-      },
-      {
-        "name": "date_2",
-        "type": "text"
-      },
-      {
-        "name": "date_3",
-        "type": "text"
-      },
-      {
-        "name": "status",
-        "type": "radio"
-      },
-      {
-        "name": "status",
-        "type": "radio"
-      },
-      {
-        "name": "status",
-        "type": "radio"
-      },
-      {
-        "name": "status",
-        "type": "radio"
-      },
-      {
-        "name": "__children[status][]",
-        "type": "hidden"
-      },
-      {
-        "name": "form-agree[data][]",
-        "type": "checkbox"
-      },
-      {
-        "name": "form-agree[separator]",
-        "type": "hidden"
-      },
-      {
-        "name": "__children[form-agree][]",
-        "type": "hidden"
-      },
-      {
-        "name": "mw_wp_form_token",
-        "type": "hidden"
-      },
-      {
-        "name": "_wp_http_referer",
-        "type": "hidden"
-      },
-      {
-        "name": "mw-wp-form-form-id",
-        "type": "hidden"
-      },
-      {
-        "name": "mw-wp-form-form-verify-token",
-        "type": "hidden"
-      }
-    ]
+    "inputs": [
+      "<input type=\"text\" name=\"fullname\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"全角文字（例：鈴木 太郎）\">",
+      "<input type=\"text\" name=\"rubi\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"全角文字（例：スズキタロウ） \">",
+      "<input type=\"email\" name=\"mail\" class=\"c-form__tf -mail\" size=\"60\" value=\"\" placeholder=\"半角英数字（例：suzuki@rede.jp） \" data-conv-half-alphanumeric=\"true\">",
+      "<input type=\"text\" name=\"tel\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"半角数字（例：080-1234-5678）\">",
+      "<input type=\"text\" name=\"postal-code\" class=\"c-form__tf p-postal-code\" size=\"60\" value=\"\" placeholder=\"半角数字（例：123-4567）\">",
+      "<input type=\"text\" name=\"address-locality\" class=\"c-form__tf p-locality\" size=\"60\" value=\"\" placeholder=\"例：新宿区\">",
+      "<input type=\"text\" name=\"address-street\" class=\"c-form__tf p-street-address p-extended-address\" size=\"60\" value=\"\" placeholder=\"例：新宿町1-1-1\">",
+      "<input type=\"text\" name=\"address-building\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"\">",
+      "<input type=\"text\" name=\"date_1\" class=\"c-form__tf c-form__datepicker hasDatepicker\" size=\"30\" value=\"\" placeholder=\"日にち\" id=\"dp1681891151108\">",
+      "<input type=\"text\" name=\"date_2\" class=\"c-form__tf c-form__datepicker hasDatepicker\" size=\"30\" value=\"\" placeholder=\"日にち\" id=\"dp1681891151109\">",
+      "<input type=\"text\" name=\"date_3\" class=\"c-form__tf c-form__datepicker hasDatepicker\" size=\"30\" value=\"\" placeholder=\"日にち\" id=\"dp1681891151110\">",
+      "<input type=\"radio\" name=\"status\" value=\"所有している（マンション）\">",
+      "<input type=\"radio\" name=\"status\" value=\"所有している（戸建）\">",
+      "<input type=\"radio\" name=\"status\" value=\"購入予定の物件がある\">",
+      "<input type=\"radio\" name=\"status\" value=\"物件を探している/探しはじめ\">",
+      "<input type=\"hidden\" name=\"__children[status][]\" value=\"{&quot;\\u6240\\u6709\\u3057\\u3066\\u3044\\u308b\\uff08\\u30de\\u30f3\\u30b7\\u30e7\\u30f3\\uff09&quot;:&quot;\\u6240\\u6709\\u3057\\u3066\\u3044\\u308b\\uff08\\u30de\\u30f3\\u30b7\\u30e7\\u30f3\\uff09&quot;,&quot;\\u6240\\u6709\\u3057\\u3066\\u3044\\u308b\\uff08\\u6238\\u5efa\\uff09&quot;:&quot;\\u6240\\u6709\\u3057\\u3066\\u3044\\u308b\\uff08\\u6238\\u5efa\\uff09&quot;,&quot;\\u8cfc\\u5165\\u4e88\\u5b9a\\u306e\\u7269\\u4ef6\\u304c\\u3042\\u308b&quot;:&quot;\\u8cfc\\u5165\\u4e88\\u5b9a\\u306e\\u7269\\u4ef6\\u304c\\u3042\\u308b&quot;,&quot;\\u7269\\u4ef6\\u3092\\u63a2\\u3057\\u3066\\u3044\\u308b\\/\\u63a2\\u3057\\u306f\\u3058\\u3081&quot;:&quot;\\u7269\\u4ef6\\u3092\\u63a2\\u3057\\u3066\\u3044\\u308b\\/\\u63a2\\u3057\\u306f\\u3058\\u3081&quot;}\">",
+      "<input type=\"checkbox\" name=\"form-agree[data][]\" value=\"以上の内容で送信してよろしければチェックしてください。\" class=\"c-form__agreement-checkbox\">",
+      "<input type=\"hidden\" name=\"form-agree[separator]\" value=\",\">",
+      "<input type=\"hidden\" name=\"__children[form-agree][]\" value=\"{&quot;\\u4ee5\\u4e0a\\u306e\\u5185\\u5bb9\\u3067\\u9001\\u4fe1\\u3057\\u3066\\u3088\\u308d\\u3057\\u3051\\u308c\\u3070\\u30c1\\u30a7\\u30c3\\u30af\\u3057\\u3066\\u304f\\u3060\\u3055\\u3044\\u3002&quot;:&quot;\\u4ee5\\u4e0a\\u306e\\u5185\\u5bb9\\u3067\\u9001\\u4fe1\\u3057\\u3066\\u3088\\u308d\\u3057\\u3051\\u308c\\u3070\\u30c1\\u30a7\\u30c3\\u30af\\u3057\\u3066\\u304f\\u3060\\u3055\\u3044\\u3002&quot;}\">",
+      "<input class=\"p-country-name\" type=\"hidden\" value=\"Japan\">",
+      "<input type=\"hidden\" id=\"mw_wp_form_token\" name=\"mw_wp_form_token\" value=\"801effe052\">",
+      "<input type=\"hidden\" name=\"_wp_http_referer\" value=\"/reception/house/\">",
+      "<input type=\"hidden\" name=\"mw-wp-form-form-id\" value=\"846\">",
+      "<input type=\"hidden\" name=\"mw-wp-form-form-verify-token\" value=\"2d6093396d675947b37f325c499e4a1817ca0742\">"
+    ],
+    "selectors": {
+      "em": "mail",
+      "fn": "",
+      "ln": "",
+      "ph": "tel",
+      "ct": "",
+      "st": "address-street",
+      "zp": "postal-code",
+      "country": ""
+    }
   },
   {
     "title": "オンライン無料相談窓口｜中古住宅での暮らしを快適にREDESIGN(リデザイン)",
     "form": "<form method=\"post\" action=\"\" enctype=\"multipart/form-data\" class=\"h-adr\">",
-    "allInputs": [
-      {
-        "name": "fullname",
-        "type": "text"
-      },
-      {
-        "name": "rubi",
-        "type": "text"
-      },
-      {
-        "name": "mail",
-        "type": "email"
-      },
-      {
-        "name": "tel",
-        "type": "text"
-      },
-      {
-        "name": "postal-code",
-        "type": "text"
-      },
-      {
-        "name": "address-locality",
-        "type": "text"
-      },
-      {
-        "name": "address-street",
-        "type": "text"
-      },
-      {
-        "name": "address-building",
-        "type": "text"
-      },
-      {
-        "name": "date_1",
-        "type": "text"
-      },
-      {
-        "name": "date_2",
-        "type": "text"
-      },
-      {
-        "name": "date_3",
-        "type": "text"
-      },
-      {
-        "name": "status",
-        "type": "radio"
-      },
-      {
-        "name": "status",
-        "type": "radio"
-      },
-      {
-        "name": "status",
-        "type": "radio"
-      },
-      {
-        "name": "status",
-        "type": "radio"
-      },
-      {
-        "name": "__children[status][]",
-        "type": "hidden"
-      },
-      {
-        "name": "form-agree[data][]",
-        "type": "checkbox"
-      },
-      {
-        "name": "form-agree[separator]",
-        "type": "hidden"
-      },
-      {
-        "name": "__children[form-agree][]",
-        "type": "hidden"
-      },
-      {
-        "name": "mw_wp_form_token",
-        "type": "hidden"
-      },
-      {
-        "name": "_wp_http_referer",
-        "type": "hidden"
-      },
-      {
-        "name": "mw-wp-form-form-id",
-        "type": "hidden"
-      },
-      {
-        "name": "mw-wp-form-form-verify-token",
-        "type": "hidden"
-      }
-    ]
+    "inputs": [
+      "<input type=\"text\" name=\"fullname\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"全角文字（例：鈴木 太郎）\">",
+      "<input type=\"text\" name=\"rubi\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"全角文字（例：スズキタロウ） \">",
+      "<input type=\"email\" name=\"mail\" class=\"c-form__tf -mail\" size=\"60\" value=\"\" placeholder=\"半角英数字（例：suzuki@rede.jp） \" data-conv-half-alphanumeric=\"true\">",
+      "<input type=\"text\" name=\"tel\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"半角数字（例：080-1234-5678）\">",
+      "<input type=\"text\" name=\"postal-code\" class=\"c-form__tf p-postal-code\" size=\"60\" value=\"\" placeholder=\"半角数字（例：123-4567）\">",
+      "<input type=\"text\" name=\"address-locality\" class=\"c-form__tf p-locality\" size=\"60\" value=\"\" placeholder=\"例：新宿区\">",
+      "<input type=\"text\" name=\"address-street\" class=\"c-form__tf p-street-address p-extended-address\" size=\"60\" value=\"\" placeholder=\"例：新宿町1-1-1\">",
+      "<input type=\"text\" name=\"address-building\" class=\"c-form__tf\" size=\"60\" value=\"\" placeholder=\"\">",
+      "<input type=\"text\" name=\"date_1\" class=\"c-form__tf c-form__datepicker hasDatepicker\" size=\"30\" value=\"\" placeholder=\"日にち\" id=\"dp1681891151292\">",
+      "<input type=\"text\" name=\"date_2\" class=\"c-form__tf c-form__datepicker hasDatepicker\" size=\"30\" value=\"\" placeholder=\"日にち\" id=\"dp1681891151293\">",
+      "<input type=\"text\" name=\"date_3\" class=\"c-form__tf c-form__datepicker hasDatepicker\" size=\"30\" value=\"\" placeholder=\"日にち\" id=\"dp1681891151294\">",
+      "<input type=\"radio\" name=\"status\" value=\"所有している（マンション）\">",
+      "<input type=\"radio\" name=\"status\" value=\"所有している（戸建）\">",
+      "<input type=\"radio\" name=\"status\" value=\"購入予定の物件がある\">",
+      "<input type=\"radio\" name=\"status\" value=\"物件を探している/探しはじめ\">",
+      "<input type=\"hidden\" name=\"__children[status][]\" value=\"{&quot;\\u6240\\u6709\\u3057\\u3066\\u3044\\u308b\\uff08\\u30de\\u30f3\\u30b7\\u30e7\\u30f3\\uff09&quot;:&quot;\\u6240\\u6709\\u3057\\u3066\\u3044\\u308b\\uff08\\u30de\\u30f3\\u30b7\\u30e7\\u30f3\\uff09&quot;,&quot;\\u6240\\u6709\\u3057\\u3066\\u3044\\u308b\\uff08\\u6238\\u5efa\\uff09&quot;:&quot;\\u6240\\u6709\\u3057\\u3066\\u3044\\u308b\\uff08\\u6238\\u5efa\\uff09&quot;,&quot;\\u8cfc\\u5165\\u4e88\\u5b9a\\u306e\\u7269\\u4ef6\\u304c\\u3042\\u308b&quot;:&quot;\\u8cfc\\u5165\\u4e88\\u5b9a\\u306e\\u7269\\u4ef6\\u304c\\u3042\\u308b&quot;,&quot;\\u7269\\u4ef6\\u3092\\u63a2\\u3057\\u3066\\u3044\\u308b\\/\\u63a2\\u3057\\u306f\\u3058\\u3081&quot;:&quot;\\u7269\\u4ef6\\u3092\\u63a2\\u3057\\u3066\\u3044\\u308b\\/\\u63a2\\u3057\\u306f\\u3058\\u3081&quot;}\">",
+      "<input type=\"checkbox\" name=\"form-agree[data][]\" value=\"以上の内容で送信してよろしければチェックしてください。\" class=\"c-form__agreement-checkbox\">",
+      "<input type=\"hidden\" name=\"form-agree[separator]\" value=\",\">",
+      "<input type=\"hidden\" name=\"__children[form-agree][]\" value=\"{&quot;\\u4ee5\\u4e0a\\u306e\\u5185\\u5bb9\\u3067\\u9001\\u4fe1\\u3057\\u3066\\u3088\\u308d\\u3057\\u3051\\u308c\\u3070\\u30c1\\u30a7\\u30c3\\u30af\\u3057\\u3066\\u304f\\u3060\\u3055\\u3044\\u3002&quot;:&quot;\\u4ee5\\u4e0a\\u306e\\u5185\\u5bb9\\u3067\\u9001\\u4fe1\\u3057\\u3066\\u3088\\u308d\\u3057\\u3051\\u308c\\u3070\\u30c1\\u30a7\\u30c3\\u30af\\u3057\\u3066\\u304f\\u3060\\u3055\\u3044\\u3002&quot;}\">",
+      "<input class=\"p-country-name\" type=\"hidden\" value=\"Japan\">",
+      "<input type=\"hidden\" id=\"mw_wp_form_token\" name=\"mw_wp_form_token\" value=\"6ab414e1ed\">",
+      "<input type=\"hidden\" name=\"_wp_http_referer\" value=\"/reception/online/\">",
+      "<input type=\"hidden\" name=\"mw-wp-form-form-id\" value=\"847\">",
+      "<input type=\"hidden\" name=\"mw-wp-form-form-verify-token\" value=\"87bbe416c82efbdf5b78abd57cbc1b6580bf74e6\">"
+    ],
+    "selectors": {
+      "em": "mail",
+      "fn": "",
+      "ln": "",
+      "ph": "tel",
+      "ct": "",
+      "st": "address-street",
+      "zp": "postal-code",
+      "country": ""
+    }
   },
   {
     "title": "中古住宅・中古物件のリノベーションの建築実例・施工例、間取り｜中古住宅での暮らしを快適にREDESIGN(リデザイン)",
     "form": "<form action=\".\">",
-    "allInputs": [
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "two_family",
-        "type": "checkbox"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "search_house",
-        "type": "checkbox"
-      },
-      {
-        "name": "owned_house",
-        "type": "checkbox"
-      },
-      {
-        "name": "relocation",
-        "type": "checkbox"
-      },
-      {
-        "name": "order_kitchen",
-        "type": "checkbox"
-      },
-      {
-        "name": "workspace",
-        "type": "checkbox"
-      },
-      {
-        "name": "old_anti_earthquake",
-        "type": "checkbox"
-      }
-    ]
+    "inputs": [
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"0\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"50\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"60\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"70\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"80\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"90\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"100\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"1\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"2\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"3\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"4\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"5\">",
+      "<input type=\"checkbox\" name=\"two_family\" value=\"1\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"0\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"750\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1000\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1250\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1500\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1750\" checked=\"\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"1\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"2\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"3\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"4\">",
+      "<input type=\"checkbox\" name=\"search_house\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"owned_house\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"relocation\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"order_kitchen\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"workspace\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"old_anti_earthquake\" value=\"1\">"
+    ],
+    "selectors": {
+      "em": "mail",
+      "fn": "",
+      "ln": "",
+      "ph": "tel",
+      "ct": "",
+      "st": "address-street",
+      "zp": "postal-code",
+      "country": ""
+    }
   },
   {
     "title": "ニュース | 中古住宅での暮らしを快適にREDESIGN(リデザイン)",
     "form": "<form action=\".\">",
-    "allInputs": [
-      {
-        "name": "news_tag[]",
-        "type": "checkbox"
-      },
-      {
-        "name": "news_tag[]",
-        "type": "checkbox"
-      }
-    ]
+    "inputs": [
+      "<input type=\"checkbox\" name=\"news_tag[]\" value=\"%e6%9a%ae%e3%82%89%e3%81%97%e3%81%ae%e8%a8%98%e4%ba%8b\">",
+      "<input type=\"checkbox\" name=\"news_tag[]\" value=\"%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%93%e3%83%a5%e3%83%bc\">"
+    ],
+    "selectors": {
+      "em": "mail",
+      "fn": "",
+      "ln": "",
+      "ph": "tel",
+      "ct": "",
+      "st": "address-street",
+      "zp": "postal-code",
+      "country": ""
+    }
   },
   {
     "title": "中古住宅・中古物件のリノベーションの建築実例・施工例、間取り｜中古住宅での暮らしを快適にREDESIGN(リデザイン)",
     "form": "<form action=\".\">",
-    "allInputs": [
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "two_family",
-        "type": "checkbox"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "search_house",
-        "type": "checkbox"
-      },
-      {
-        "name": "owned_house",
-        "type": "checkbox"
-      },
-      {
-        "name": "relocation",
-        "type": "checkbox"
-      },
-      {
-        "name": "order_kitchen",
-        "type": "checkbox"
-      },
-      {
-        "name": "workspace",
-        "type": "checkbox"
-      },
-      {
-        "name": "old_anti_earthquake",
-        "type": "checkbox"
-      }
-    ]
+    "inputs": [
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"0\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"50\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"60\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"70\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"80\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"90\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"100\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"1\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"2\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"3\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"4\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"5\">",
+      "<input type=\"checkbox\" name=\"two_family\" value=\"1\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"0\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"750\" checked=\"\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1000\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1250\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1500\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1750\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"1\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"2\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"3\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"4\">",
+      "<input type=\"checkbox\" name=\"search_house\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"owned_house\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"relocation\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"order_kitchen\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"workspace\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"old_anti_earthquake\" value=\"1\">"
+    ],
+    "selectors": {
+      "em": "mail",
+      "fn": "",
+      "ln": "",
+      "ph": "tel",
+      "ct": "",
+      "st": "address-street",
+      "zp": "postal-code",
+      "country": ""
+    }
   },
   {
     "title": "中古住宅・中古物件のリノベーションの建築実例・施工例、間取り｜中古住宅での暮らしを快適にREDESIGN(リデザイン)",
     "form": "<form action=\".\">",
-    "allInputs": [
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "area",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "family",
-        "type": "radio"
-      },
-      {
-        "name": "two_family",
-        "type": "checkbox"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "amount",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "structure",
-        "type": "radio"
-      },
-      {
-        "name": "search_house",
-        "type": "checkbox"
-      },
-      {
-        "name": "owned_house",
-        "type": "checkbox"
-      },
-      {
-        "name": "relocation",
-        "type": "checkbox"
-      },
-      {
-        "name": "order_kitchen",
-        "type": "checkbox"
-      },
-      {
-        "name": "workspace",
-        "type": "checkbox"
-      },
-      {
-        "name": "old_anti_earthquake",
-        "type": "checkbox"
-      }
-    ]
+    "inputs": [
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"0\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"50\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"60\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"70\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"80\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"90\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"area\" value=\"100\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"1\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"2\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"3\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"4\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"family\" value=\"5\">",
+      "<input type=\"checkbox\" name=\"two_family\" value=\"1\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"0\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"750\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1000\" checked=\"\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1250\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1500\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"amount\" value=\"1750\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"1\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"2\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"3\">",
+      "<input is=\"re-rdb\" type=\"radio\" name=\"structure\" value=\"4\">",
+      "<input type=\"checkbox\" name=\"search_house\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"owned_house\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"relocation\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"order_kitchen\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"workspace\" value=\"1\">",
+      "<input type=\"checkbox\" name=\"old_anti_earthquake\" value=\"1\">"
+    ],
+    "selectors": {
+      "em": "mail",
+      "fn": "",
+      "ln": "",
+      "ph": "tel",
+      "ct": "",
+      "st": "address-street",
+      "zp": "postal-code",
+      "country": ""
+    }
   },
   {
     "title": "ニュース | 中古住宅での暮らしを快適にREDESIGN(リデザイン)",
     "form": "<form action=\".\">",
-    "allInputs": [
-      {
-        "name": "news_tag[]",
-        "type": "checkbox"
-      },
-      {
-        "name": "news_tag[]",
-        "type": "checkbox"
-      }
-    ]
+    "inputs": [
+      "<input type=\"checkbox\" name=\"news_tag[]\" value=\"%e6%9a%ae%e3%82%89%e3%81%97%e3%81%ae%e8%a8%98%e4%ba%8b\">",
+      "<input type=\"checkbox\" name=\"news_tag[]\" value=\"%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%93%e3%83%a5%e3%83%bc\">"
+    ],
+    "selectors": {
+      "em": "mail",
+      "fn": "",
+      "ln": "",
+      "ph": "tel",
+      "ct": "",
+      "st": "address-street",
+      "zp": "postal-code",
+      "country": ""
+    }
   },
   {
     "title": "お知らせ｜中古住宅での暮らしを快適にREDESIGN(リデザイン)",
     "form": "<form action=\".\">",
-    "allInputs": [
-      {
-        "name": "news_tag[]",
-        "type": "checkbox"
-      },
-      {
-        "name": "news_tag[]",
-        "type": "checkbox"
-      }
-    ]
+    "inputs": [
+      "<input type=\"checkbox\" name=\"news_tag[]\" value=\"%e6%9a%ae%e3%82%89%e3%81%97%e3%81%ae%e8%a8%98%e4%ba%8b\">",
+      "<input type=\"checkbox\" name=\"news_tag[]\" value=\"%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%93%e3%83%a5%e3%83%bc\">"
+    ],
+    "selectors": {
+      "em": "mail",
+      "fn": "",
+      "ln": "",
+      "ph": "tel",
+      "ct": "",
+      "st": "address-street",
+      "zp": "postal-code",
+      "country": ""
+    }
   }
 ]
